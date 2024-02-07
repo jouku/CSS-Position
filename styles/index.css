@@ -5,6 +5,7 @@ body {
 }
 
 section {
+    display: block;
     margin-top: 30px;
 }
 
@@ -53,9 +54,12 @@ section {
     border: 1px solid #BCD0E5;
 }
 
-.header-view {
+.view {
     display: flex;
-    height: 500px;
+}
+
+.view-reverse {
+    flex-direction: row-reverse;
 }
 
 .left-view {
@@ -63,14 +67,14 @@ section {
     flex-direction: column;
     align-items: start;
     justify-content: space-around;
-    height: 300px;
-
+    margin: 10px;
 }
 
 .right-view {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 10px;
 }
 
 .h1-text {
@@ -156,4 +160,8 @@ section {
 
 .blue-bg {
     background-color: #4DADF7;
+}
+
+.main-bg {
+    background-color: #FF9900;
 }
